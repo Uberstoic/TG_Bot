@@ -1,13 +1,18 @@
-# Telegram Bot Basic
+**Telegram Job Vacancy Bot**
+This project is a Telegram bot designed to fetch and display job vacancies from the Habr Career website. The bot uses web scraping to gather information about the latest job listings and presents them to users via the Telegram platform.
 
-This project is a basic Telegram bot designed to provide a simple yet functional template for creating and deploying bots on the Telegram platform. It includes fundamental features and setup instructions to get you started quickly.
+**Features**
+Start Command: Welcomes users and provides a button to fetch job vacancies.
+Vacancies Command: Provides a button to fetch the latest job vacancies.
+Inline Button: Allows users to fetch and display the latest job vacancies directly in the chat.
 
-## Features
+**How It Works**
+The bot scrapes the Habr Career website for job vacancies.
+When a user sends the /start command or clicks the "Get Vacancies" button, the bot fetches the latest job listings and displays them in the chat.
 
-- **Start Command**: Sends a welcome message to users.
-- **Help Command**: Provides a list of available commands and their descriptions.
-- **Echo Command**: Repeats the user's message.
-- **Custom Commands**: Easy to add new commands with minimal code changes.
+**Commands**
+/start - Initiates the conversation with the bot and provides an inline button to fetch job vacancies.
+/vacancies - Provides an inline button to fetch job vacancies.
 
-**Link for bot usage:**
-https://t.me/TestBotOfSerjbot
+**Contributing**
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
