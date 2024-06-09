@@ -1,4 +1,5 @@
 **Telegram Job Vacancy Bot**
+
 This project is a Telegram bot designed to fetch and display job vacancies from the Habr Career website. The bot uses web scraping to gather information about the latest job listings and presents them to users via the Telegram platform.
 
 **Features**
